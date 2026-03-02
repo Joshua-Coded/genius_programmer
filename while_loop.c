@@ -6,6 +6,6 @@ int main(){
 
     while( x <= 10) {
         printf("\n The value of x is: %d\n", x);
-        x++;
+        // x++;
     }
 }
