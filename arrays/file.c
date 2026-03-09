@@ -20,21 +20,28 @@ int main () {
     //     printf("\nThe value of iArray index %d is %d\n", x, x);
 
 
-int x;
-int iIndex = -1;
-int iArray[5];
+// int x;
+// int iIndex = -1;
+// int iArray[5];
 
 // initialisation of array
 
-for (x = 0; x < 5; x++)
-    iArray[x] = x;
+// for (x = 0; x < 5; x++)
+//     iArray[x] = x;
 
 
-do {
-    printf("\nEnter a valid index (0-4): ");
-    scanf("%d", &iIndex);
-} while (iIndex < 0 || iIndex > 4);
+// do {
+//     printf("\nEnter a valid index (0-4): ");
+//     scanf("%d", &iIndex);
+// } while (iIndex < 0 || iIndex > 4);
 
-printf("\nThe value of index %d is %d\n", iIndex, iArray[iIndex]);
+// printf("\nThe value of index %d is %d\n", iIndex, iArray[iIndex]);
+
+// char cName[] = {'a','l','a','n','a', '\0'};
+
+// int c;
+
+// for (c = 0; c < cName[c]; c++)
+//     printf("\nThe characters are: %c\n", cName[c]);
 
 }
