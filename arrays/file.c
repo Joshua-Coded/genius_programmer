@@ -7,8 +7,8 @@
 #include <stdio.h>
 
 int main () {
-    int x;
-    int iArray[5] = {1,2,3,4,5};
+    // int x;
+    // int iArray[5] = {1,2,3,4,5};
 
 // initialise array elements
     // for (x = 0; x < 5; x++)
@@ -16,8 +16,25 @@ int main () {
     
 
 // print array elements contents
-    for (x = 0; x <= iArray[x]; x++)
-        printf("\nThe value of iArray index %d is %d\n", x, x);
+    // for (x = 0; x <= iArray[x]; x++)
+    //     printf("\nThe value of iArray index %d is %d\n", x, x);
 
+
+int x;
+int iIndex = -1;
+int iArray[5];
+
+// initialisation of array
+
+for (x = 0; x < 5; x++)
+    iArray[x] = x;
+
+
+do {
+    printf("\nEnter a valid index (0-4): ");
+    scanf("%d", &iIndex);
+} while (iIndex < 0 || iIndex > 4);
+
+printf("\nThe value of index %d is %d\n", iIndex, iArray[iIndex]);
 
 }
