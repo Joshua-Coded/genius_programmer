@@ -75,5 +75,21 @@ int main () {
 //     printf("\nSorry, your search was not found\n");
 
 
+/*************** THE TWO DIMENSIONAL ARRAY IMPLEMENTATION *****************/
+// int iTwoD[3][3];
+// int x, y;
+
+// initialising a 2-D Array
+
+// for (x = 0; x <=2; x++) {
+//     for (y = 0; y <=2; y++)
+//     iTwoD[x][y] = (x + y); 
+// }
+
+// printing a 2-D Array
+// for (x = 0; x<=2; x++){
+//     for (y=0; y<=2; y++)
+//         printf("\nThe 2-D Array is of iTwoD[%d][%d] = %d\n", x,y, iTwoD[x][y]);
+// }
 
 }
