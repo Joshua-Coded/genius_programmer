@@ -45,33 +45,35 @@ int main () {
 //     printf("\nThe characters are: %c\n", cName[c]);
 
 /************* The searching of elements in an array ****************/
-int x;
-int iValue;
-int iFound = -1;
-int iArray[5];
+// int x;
+// int iValue;
+// int iFound = -1;
+// int iArray[5];
 
 // initialising the array
 
-for (x = 0; x < 5; x++)
-    iArray[x] = (x + x);
+// for (x = 0; x < 5; x++)
+//     iArray[x] = (x + x);
 
 // ask user to find an element
 
-printf("\nEnter value to search for: ");
-scanf("%d", &iValue);
+// printf("\nEnter value to search for: ");
+// scanf("%d", &iValue);
 
 // searhcing for the element
-for (x = 0; x < 5; x++) {
+// for (x = 0; x < 5; x++) {
 
-    if (iArray[x] == iValue){
-        iFound = x;
-        break;
-    }
-}
+//     if (iArray[x] == iValue){
+//         iFound = x;
+//         break;
+//     }
+// }
 
-if (iFound > -1)
-    printf("\nI found your search value in element %d\n", iFound);
-else   
-    printf("\nSorry, your search was not found\n");
+// if (iFound > -1)
+//     printf("\nI found your search value in element %d\n", iFound);
+// else   
+//     printf("\nSorry, your search was not found\n");
+
+
 
 }
