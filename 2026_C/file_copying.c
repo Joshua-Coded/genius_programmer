@@ -9,8 +9,14 @@ int main () {
     //     c = getchar();
     // }
 
-    int c;
+    // int c;
 
-    while ((c = getchar()) != EOF)
-        putchar(c);
+    // while ((c = getchar()) != EOF)
+    //     putchar(c);
+    int c;
+    // c = (getchar() != EOF);
+
+    // printf("%d", c);
+
+    printf("EOF is %d\n", EOF);
 }
